@@ -31,4 +31,7 @@ The project is a web application that allows users to interact with the bicycle 
 The files used for this project are chicago.csv, new_york_city.csv and washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The following sites were used extensively in the course of the project:
+1. [Pandas](https://pandas.pydata.org/pandas-docs/stable/)
+2. [Python](https://docs.python.org/3/reference/index.html)
+3. [Stackoverflow](https://stackoverflow.com/)
