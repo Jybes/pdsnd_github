@@ -28,7 +28,7 @@ The project is a web application that allows users to interact with the bicycle 
 5. Raw data statistics: Here it ask the user if they would like to see the first five rows of the raw data. If yes, it will display the data and ask if they would like to see the next five rows, continuing until the user chooses otherwise.
 
 ### Files used
-Include the files used
+The files used for this project are chicago.csv, new_york_city.csv and washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
