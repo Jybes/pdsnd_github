@@ -22,7 +22,7 @@ def get_filters():
 
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington).
     while True:
         try:
             city = input('Would you like to see data for chicago, new york city, or washington?: ').lower()
@@ -106,7 +106,7 @@ def time_stats(df):
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
-    #df = pd.read_csv(CITY_DATA[city])
+
     # display the most common month
     most_common_month = df['month'].mode()[0]
     print('The most common month is ', most_common_month)
@@ -186,7 +186,7 @@ def user_stats(df):
     print('There are {} users that are dependent'.format(dep_type_count))
 
     #Check for gender column
-    if 'Gender' in df:#[['Gender']]:
+    if 'Gender' in df:
         # Display counts of gender
         gender_type_count = df['Gender'].value_counts()
 
@@ -198,7 +198,6 @@ def user_stats(df):
 
         nogender_type_count = df['Gender'].isnull().sum()
         print('There are {} unidentified genders'.format(nogender_type_count))
-
 
     else:
         print('\nGender information is not available for this city')
@@ -224,6 +223,7 @@ def user_stats(df):
 
 def display_data(df):
     df =  df.drop(['comb', 'hour'], axis =1)
+    
     while True:
            dat = input('Would you like to view the first five rows of data? Enter yes or no\n')
         if dat.lower() == 'no':
