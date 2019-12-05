@@ -30,6 +30,9 @@ The project is a web application that allows users to interact with the bicycle 
 ### Files used
 The files used for this project are chicago.csv, new_york_city.csv and washington.csv
 
+### Minor bugs
+Under the **display_data** function, when the user chooses not to see more of the raw data, the application still goes ahead to ask them if they would like to see the first five rows of data, instead of just just going ahead to ask if they would like to restart.
+
 ### Credits
 The following sites were used extensively in the course of the project:
 1. [Pandas](https://pandas.pydata.org/pandas-docs/stable/)
